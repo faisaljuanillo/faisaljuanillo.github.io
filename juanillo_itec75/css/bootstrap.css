@@ -559,6 +559,11 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  border-style: outset;
+  padding: 20px;
+  background-color: #E4C0B8;
+
+  
 }
 
 @media (min-width: 576px) {
@@ -634,6 +639,7 @@ pre code {
   -ms-flex-positive: 1;
   flex-grow: 1;
   max-width: 100%;
+  font-weight: bold;
 }
 
 .col-auto {
@@ -870,6 +876,8 @@ pre code {
     -ms-flex-positive: 1;
     flex-grow: 1;
     max-width: 100%;
+	background-color: #F385AF;
+	font-weight: bold;
   }
   .col-sm-auto {
     -webkit-box-flex: 0;
@@ -8971,5 +8979,5 @@ a.text-dark:hover, a.text-dark:focus {
   .table-bordered td {
     border: 1px solid #ddd !important;
   }
-}
+
 /*# sourceMappingURL=bootstrap.css.map */
